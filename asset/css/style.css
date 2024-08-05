@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Jost", sans-serif;
+    list-style: none;
+    text-decoration: none !important;
+    font-weight: 400;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "DM Serif Display", serif !important;
+}
+.color4d{
+    color: #4D5053 !important; 
+}
+.bg-img{
+    background-image: url('../images/Photo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 758px;
+    border-radius: 50px;
+}
+.font65{
+    font-size: 65px;
+}
+.font22{
+    font-size: 22px;
+}
+.btn-2{
+    height: 75px;
+    width: 220px;
+    background-color: #292f36;
+    border: none !important;
+    outline: none !important;
+    transition: .2s all linear;
+}
+.btn-2:hover{
+    background-color: #fff;
+}
+.btn-2:hover a{
+    color: black !important;
+}
+.p-in{
+    padding-inline: 30%;
+}
+.colorcda{
+    color: #cda274;
+}
+section,.m-b-20{
+    margin-bottom: 170px;
+}
+.color29{
+    color: #292f36;
+}
+.btn-3{
+    border: none;
+    background-color: transparent;
+    margin-top: 25px;
+    transition: .2s all linear;
+}
+.font55{
+    font-size: 55px;
+}
+.m-b-25{
+    margin-bottom: 25px;
+}
+.font32{
+    font-size: 32px;
+    color: #cda274;
+}
+.phone-bg{
+    background-color: #f4f0ec;
+    height: 93px;
+    width: 93px;
+}
+.colorf4{
+    background-color: #f4f0ec;
+
+}
+/* .height-679{
+    height: 679px;
+} */
+.border-redius{
+    border-radius: 50px;
+}
+.border-redius-sm{
+    border-radius: 30px;
+}
+.m-t-100{
+    margin-top: 50px;
+}
+.h-286{
+    height: 150px;
+}
+.m-b-100{
+    margin-bottom: 100px;
+}
+.arr-bg{
+    height: 52px;
+    width: 52px;
+    background-color: #f4f0ec;
+}
+.arr-bg2{
+    height: 70px;
+    width: 70px;
+    background-color: #f4f0ec;
+}
+.bg-f4{
+    background-color: #f4f0ec;
+}
+#counter{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    /* background: #e6e6e7; */
+    padding: 40px 0px;
+    width: 100%;
+  }
+  #counter .item{
+    
+
+    padding: 35px 40px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 20px;
+    /* -webkit-box-shadow: 0px 0px 38px -8px rgba(0,0,0,0.34);
+  -moz-box-shadow: 0px 0px 38px -8px rgba(0,0,0,0.34);
+  box-shadow: 0px 0px 38px -8px rgba(0,0,0,0.34); */
+  } 
+  #counter .item .count{
+    color: #e8b12d;
+    margin-bottom: 5px;
+    font-size: 40px;
+  }
+  #counter .item h3{
+    color: #4f4e28;
+    text-transform: capitalize;
+  }
+  .border-bottem{
+    border-bottom-left-radius: 50px ;
+    border-bottom-right-radius: 50px ;
+  }
+  .font25{
+    font-size: 25px;
+  }
+  .border-img{
+    border-radius: 50px !important;
+    border: 5px sloid #292f36 !important;
+    /* height: 500px; */
+  }
+  .bg-29{
+    background-color: #292f36;
+  }
+  .bg-cda{
+    background-color: #cda274;
+  }
+  .m-50{
+    margin-left: 40%;
+  }
+  .lg-padding{
+    padding: 70px;
+  }
+  .line-1{
+   width: 1px;
+   height: 100vh;
+   background-color: #e6e6e6;
+   position: fixed;
+   top: 0;
+   left: 16%;
+   z-index: -9;
+  }
+  .line-2{
+   width: 1px;
+   height: 100vh;
+   background-color: #e6e6e6;
+   position: fixed;
+   top: 0;
+   left: 38%;
+   z-index: -9;
+  }
+  .line-3{
+   width: 1px;
+   height: 100vh;
+   background-color: #e6e6e6;
+   position: fixed;
+   top: 0;
+   left: 60%;
+   z-index: -9;
+  }
+  .line-4{
+   width: 1px;
+   height: 100vh;
+   background-color: #e6e6e6;
+   position: fixed;
+   top: 0;
+   left: 84%;
+   z-index: -9;
+  }
+  .line-5{
+    position: relative;
+  }
+  .line-5::after{
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #e6e6e6;
+    position: absolute;
+    bottom: 55px;
+    z-index: -9;
+  }
+
+.article-card{
+    padding: 8px;
+    border: 1px solid #e6e6e6;
+    border-radius: 50px;
+    transition: 0.2s all linear;
+    cursor: pointer;
+}
+.article-card:hover{
+    background-color: #f4f0ec;
+}
+.article-card:hover .arr-bg{
+    background-color: white;
+    color: black;
+}
+.border-rig{
+    border-right: 1px solid #cda274;
+    border-radius: 0% !important;
+}
+.hover-5:hover{
+    scale: 1.2 !important;
+}
+.pointer{
+    cursor: pointer;
+}
+.none{
+    display: none;
+}
+.full{
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    background-color: #fff;
+    top: 0;
+    margin-top: 72px;
+    padding-left: 50px;
+}
+
+
+
+
+
