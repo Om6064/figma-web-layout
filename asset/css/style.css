@@ -13,6 +13,12 @@ h1,h2,h3,h4,h5,h6{
 .color4d{
     color: #4D5053 !important; 
 }
+header{
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 99;
+}
 .bg-img{
     background-image: url('../images/Photo.png');
     background-repeat: no-repeat;

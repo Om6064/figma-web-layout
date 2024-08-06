@@ -17,4 +17,10 @@
     .lg-padding{
         padding: 30px;
     }
+    .left{
+        margin-left: 10px;
+    }
+    .left-1{
+        width: 100%;
+    }
 }
