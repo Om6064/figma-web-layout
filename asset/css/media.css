@@ -23,4 +23,12 @@
     .left-1{
         width: 100%;
     }
+    .main-hero{
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .res{
+        padding: 10px !important;
+    }
 }
