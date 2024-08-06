@@ -2,6 +2,13 @@
     .border-rig{
         border: none !important;
     }
+    .res{
+        padding: 30px !important;
+    }
+    .left-1{
+        margin-left:80px !important ;
+    }
+    
 }
 @media (max-width:576px) {
     .box{
@@ -30,5 +37,9 @@
     }
     .res{
         padding: 15px !important;
+    }
+    .res-2{
+        display: flex;
+        flex-wrap: wrap;
     }
 }
