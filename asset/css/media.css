@@ -8,8 +8,15 @@
     .left-1{
         margin-left:80px !important ;
     }
+    .border-redius-sm{
+        width: 100% !important;
+        margin: 0 !important;
+        /* padding: 0 !important; */
+    }
     
-}
+    }
+    
+
 @media (max-width:576px) {
     .box{
         width: 100%;

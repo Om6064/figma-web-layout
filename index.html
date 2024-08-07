@@ -19,13 +19,13 @@
                     <img src="./asset/images/Logo.png" alt="logo" class="w-25">
                 </div>
                 <div>
-                    <ul class="d-md-flex d-none gap-4 color4d m-0 p-0">
-                        <li class="hover-5 pointer">Home</li>
-                        <li class="hover-5 pointer">Pages</li>
-                        <li class="hover-5 pointer">Services</li>
-                        <li class="hover-5 pointer">Project</li>
-                        <li class="hover-5 pointer">Blog</li>
-                        <li class="hover-5 pointer">Contect</li>
+                    <ul class="d-md-flex d-none gap-4  m-0 p-0">
+                        <li class="hover-5 pointer"> <a class="color4d" href="#home">Home</a></li>
+                        <li class="hover-5 pointer"> <a class="color4d" href="#page">Pages</a></li>
+                        <li class="hover-5 pointer"> <a class="color4d" href="#ser">Services</a></li>
+                        <li class="hover-5 pointer"> <a class="color4d" href="#project">Project</a></li>
+                        <li class="hover-5 pointer"> <a class="color4d" href="#blog">Blog</a></li>
+                        <li class="hover-5 pointer"> <a class="color4d" href="#contect">Contect</a></li>
                         <li class="hover-5 pointer">
                             <i class="fa-solid fa-magnifying-glass"></i>
                             </a>
@@ -37,7 +37,7 @@
         </div>
     </header>
 
-    <section class="p-4 main-hero" >
+    <section class="p-4 main-hero" id="home">
         <div class="container">
             <div class="bg-img d-flex align-items-center">
                 <div class="col-lg-6 p-5 hero">
@@ -89,7 +89,7 @@
         </div>
     </section>
 
-    <section>
+    <section id="page">
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-lg-5 mt-5">
@@ -137,7 +137,7 @@
         </div>
     </section>
 
-    <section class="">
+    <section class="" id="ser">
         <div class="container">
             <div class="colorf4 border-redius p-5">
                 <h2 class="color29 text-center font55 ">What the People Thinks <br>
@@ -186,7 +186,7 @@
                         <div class="bg-white p-5 m-t-100 border-redius-sm h-100">
                             <div class="row gap-4 ">
                                 <div>
-                                    <img src="./asset/images/Image (1).png" alt="">
+                                    <img src="./asset/images/person.png" alt="">
                                 </div>
                                 <div class="mt-3">
                                     <h5 class="m-0 fw-bold">Benny Roll</h5>
@@ -229,7 +229,7 @@
         </div>
     </section>
 
-    <section>
+    <section id="project">
         <div class="container">
             <h2 class="color29 text-center font55 ">Follow Our Projects</h2>
             <p class="text-center font22 color4d m-b-100">It is a long established fact that a reader will be distracted
@@ -328,7 +328,7 @@
 
     </section>
 
-    <section>
+    <section id="blog">
         <div class="container">
             <h2 class="color29 text-center font55 ">Articles & News</h2>
             <p class="text-center font22 color4d m-b-100">It is a long established fact that a reader will be distracted
@@ -415,7 +415,7 @@
         </div>
     </section>
 
-    <section>
+    <section id="contect">
         <div class="container">
             <div class="bg-29 box lg-padding border-redius">
                 <div class="">
@@ -510,17 +510,14 @@
     <div class="line-5"></div>
 
     <div class="full none">
-        <ul class=" color4d m-0 p-0">
-            <li class="hover-5 pointer mt-4">Home</li>
-            <li class="hover-5 pointer mt-4">Pages</li>
-            <li class="hover-5 pointer mt-4">Services</li>
-            <li class="hover-5 pointer mt-4">Project</li>
-            <li class="hover-5 pointer mt-4">Blog</li>
-            <li class="hover-5 pointer mt-4">Contect</li>
-            <li class="hover-5 pointer mt-4">
-                <i class="fa-solid fa-magnifying-glass"></i>
-                </a>
-            </li>
+        <ul class="  m-0 p-0">
+            <li class=" pointer mt-4 "><a class="color4d tap" href="#home">Home</a></li>
+            <li class=" pointer mt-4 "><a class="color4d tap" href="#page">Pages</a></li>
+            <li class=" pointer mt-4 "><a class="color4d tap" href="#ser">Services</a></li>
+            <li class=" pointer mt-4 "><a class="color4d tap" href="#project">Project</a></li>
+            <li class=" pointer mt-4 "><a class="color4d tap" href="#blog">Blog</a></li>
+            <li class=" pointer mt-4 "><a class="color4d tap" href="#contect">Contect</a></li>
+          
         </ul>
     </div>
 
@@ -533,7 +530,15 @@
                 $(".full").toggleClass("none");
                 $(this).toggleClass("fa-bars fa-x")
             })
+            $(".tap").on("click",function(){
+
+                $(".full").toggleClass("none")
+            })
+
+        
         })
+
+
     </script>
 
 
